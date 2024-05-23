@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: #ececec;
+}
+
+#main #section1 {
+  height: 45%;
+  width: 100%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: white;
+}
+
+#section1 #nav {
+  height: 80px;
+  /* background-color: yellow; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 80px;
+}
+
+#nav .menu {
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  height: 50px;
+  border-radius: 5px;
+  gap: 50px;
+  background-color: #f4f5f5;
+}
+
+#nav a {
+  font-size: 16px;
+  color: black;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+#nav .login {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.login a:nth-child(2) {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 15px 20px;
+  border-radius: 5px;
+  background-color: #f4f5f5;
+}
+
+#section1 h1 {
+  font-size: 250px;
+  text-align: center;
+  letter-spacing: 50px;
+}
+
+#main #section2 {
+  height: 55%;
+  width: 100%;
+  background-color: #ecece5;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: space-between;
+}
+
+#section2 .one {
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+
+#section2 div:nth-child(1) div:nth-child(1) div:nth-child(1) {
+    position: relative;
+    display: flex;
+}
+
+#section2 div:nth-child(1) div:nth-child(1) div:nth-child(1) h2 {
+    margin-left: 50px;
+}
+
+#section2 div:nth-child(1) div:nth-child(1) div:nth-child(2) p {
+    color: gray;
+}
+
+#section2 div:nth-child(1) div:nth-child(1) div:nth-child(1) img:nth-child(1) {
+    position: absolute;
+    left: 35%;
+}
+
+#section2 div:nth-child(1) div:nth-child(1) div:nth-child(1) img:nth-child(2) {
+    position: absolute;
+    left: 20%;
+}
+
+#section2 div:nth-child(1) div:nth-child(1) div:nth-child(1) img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+#section2 .two {
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+#section2 .two div:nth-child(2) {
+    display: inline-block;
+    padding: 80px 40px;
+    background-color: #D7FD6B;
+    border-radius: 50%;
+    font-weight: 600;
+}
+
+#section2 .images {
+    top: -150px;
+    height: 72vh;
+    width: 90%;
+    position: absolute;
+}
